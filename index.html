@@ -167,7 +167,7 @@
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
-                    <span id="msg">hello</span>
+                  
                 </div>
             </div>
         </div>
@@ -193,21 +193,8 @@
    </script>
 
 
+  
    <script>
-    var sidemenu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-   </script>
-   <script>
-  const scriptURL = '<https://script.google.com/macros/s/AKfycby0pXVoXO0zsMYArk-PyUGeOIjW_ABl1fMptY5Ko-S6OfDbw0_wrAw1I82EBGTJo_d8/exec>'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg");
-
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
@@ -225,5 +212,6 @@
 </body>
 
 </html>
+
 
 
