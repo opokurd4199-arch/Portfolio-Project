@@ -336,7 +336,7 @@ form .btn2 {
 .copyright i{
     color: #ff004f;
 }
-/* ---------media queries-------- */
+
 /* ---------media queries-------- */
 @media only screen and (max-width: 600px){
     #header{
@@ -395,11 +395,8 @@ form .btn2 {
         margin-top: 0;
     }
 }
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
-}
+
+
 
 
 
