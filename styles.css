@@ -344,7 +344,7 @@ form .btn2 {
         background-image: url(images/phone-background.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 79%;
         font-size: 25px;
     }
     nav ul{
@@ -394,3 +394,4 @@ form .btn2 {
     margin-top: -40px;
     display: block;
 }
+
