@@ -346,13 +346,6 @@ form .btn2 {
         font-size: 25px;
     }
 
-    /* ========== MOBILE MEDIA QUERY ========== */
-@media only screen and (max-width: 600px) {
-    /* General adjustments */
-    .container {
-        padding: 10px 20px;
-    }
-    
     /* Header section */
     #header {
         background-image: url(images/phone-background.png);
@@ -364,8 +357,8 @@ form .btn2 {
     }
     
     .header-text {
-        margin-top: 40%;
-        font-size: 20px;
+        margin-top: 79%;
+        font-size: 25px;
         text-align: center;
     }
     
@@ -560,4 +553,5 @@ form .btn2 {
         padding: 10px 15px;
     }
 }
+
 
