@@ -343,7 +343,7 @@ form .btn2 {
         background-image: url(images/phone-background.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 70%;
         font-size: 25px;
     }
   /* Navigation */
@@ -400,4 +400,5 @@ form .btn2 {
     margin-top: -40px;
     display: block;
 }
+
 
