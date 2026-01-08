@@ -337,221 +337,59 @@ form .btn2 {
     color: #ff004f;
 }
 /* ---------media queries-------- */
+/* ---------media queries-------- */
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/phone-background.png);
     }
     .header-text{
-        margin-top: 79%;
+        margin-top: 100%;
         font-size: 25px;
     }
-
-    /* Header section */
-    #header {
-        background-image: url(images/phone-background.png);
-        background-size: cover;
-        background-position: center;
-        height: auto;
-        min-height: 100vh;
-        padding: 20px 0;
+    nav ul{
+        background: fixed;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
     }
-    
-    .header-text {
-        margin-top: 79%;
-        font-size: 25px;
-        text-align: center;
+    nav ul li{
+        margin: 25px;
     }
-    
-    .header-text h1 {
-        font-size: 36px;
-        margin-top: 10px;
+    nav ul .fa-circle-xmark{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
     }
-    
-    /* Navigation */
-    nav {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
-    
-    .logo {
-        width: 120px;
-    }
-    
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
-    }
-    
-    nav ul li {
-        margin: 5px 10px;
-    }
-    
-    nav ul li a {
-        font-size: 16px;
-    }
-    
-    /* About section */
-    .sub-title {
-        font-size: 36px;
-        text-align: center;
-    }
-    
-    .about-col-1, 
-    .about-col-2 {
-        flex-basis: 100%;
-    }
-    
-    .about-col-1 img {
-        max-width: 300px;
-        margin: 0 auto 30px auto;
-        display: block;
-    }
-    
-    .about-col-2 {
-        text-align: center;
-        font-size: 15px;
-    }
-    
-    .about-col-2 h1 {
-        font-size: 28px;
-    }
-    
-    .tab-titles {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    
-    .tab-links {
-        margin-right: 0;
-        font-size: 16px;
-    }
-    
-    /* Services section */
-    .services-list {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .services-list div {
-        padding: 25px;
-        text-align: center;
-    }
-    
-    .services-list div h2 {
-        font-size: 24px;
-    }
-    
-    .services-list div i {
+    .sub-title{
         font-size: 40px;
-        margin-bottom: 20px;
     }
-    
-    /* Portfolio section */
-    .work-list {
-        grid-template-columns: 1fr;
-        gap: 25px;
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
     }
-    
-    .layer {
-        padding: 0 20px;
+    .about-col-1 img{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
         font-size: 14px;
     }
-    
-    .layer h3 {
-        font-size: 22px;
-        margin-bottom: 15px;
-    }
-    
-    /* Contact section */
-    .row {
-        flex-direction: column;
-        gap: 30px;
-    }
-    
-    .contact-left,
-    .contact-right {
-        flex-basis: 100%;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .social-icons {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
-    
-    .social-icons a {
-        font-size: 24px;
-        margin-right: 0;
-    }
-    
-    /* Forms and buttons */
-    form input,
-    form textarea {
-        padding: 12px;
+    .tab-links{
+        margin-right: 30px;
         font-size: 16px;
     }
-    
-    .btn,
-    .btn2,
-    form button,
-    form input[type="submit"] {
-        display: block;
-        width: 100%;
-        padding: 14px;
-        margin: 20px auto;
-        text-align: center;
+    .contact-left, .contact-right{
+        flex-basis: 100%;
     }
-    
-    form .btn2 {
-        width: 100%;
-        padding: 14px;
-    }
-    
-    /* Footer */
-    .copyright {
-        margin-top: 30px;
-        padding: 20px;
-        font-size: 14px;
-    }
-    
-    #msg {
-        margin-top: 10px;
-        text-align: center;
+    .copyright{
+        margin-top: 0;
     }
 }
-
-/* ========== SMALL MOBILE ADJUSTMENTS ========== */
-@media only screen and (max-width: 375px) {
-    .header-text {
-        margin-top: 79%;
-        font-size: 25px;
-    }
-    
-  
-    
-    .sub-title {
-        font-size: 32px;
-    }
-    
-    nav ul li {
-        margin: 5px 8px;
-    }
-    
-    nav ul li a {
-        font-size: 15px;
-    }
-    
-    .container {
-        padding: 10px 15px;
-    }
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
-
-
