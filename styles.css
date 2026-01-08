@@ -538,8 +538,8 @@ form .btn2 {
 /* ========== SMALL MOBILE ADJUSTMENTS ========== */
 @media only screen and (max-width: 375px) {
     .header-text {
-        margin-top: 50%;
-        font-size: 18px;
+        margin-top: 79%;
+        font-size: 25px;
     }
     
   
@@ -560,3 +560,4 @@ form .btn2 {
         padding: 10px 15px;
     }
 }
+
